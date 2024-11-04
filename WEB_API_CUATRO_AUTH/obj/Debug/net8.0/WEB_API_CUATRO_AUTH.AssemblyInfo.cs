@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_API_CUATRO_AUTH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43130d196de2ba58e23a0d91dbc9e0346c2af43b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917d0f0850caa4c667a6e2c2a98d783ba139b3e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_API_CUATRO_AUTH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_API_CUATRO_AUTH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
