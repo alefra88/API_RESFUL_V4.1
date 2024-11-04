@@ -1,0 +1,1340 @@
+2024-11-03 18:28:08.596 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 18:28:08.900 -06:00 [INF] Iniciando app...
+2024-11-03 18:28:08.904 -06:00 [DBG] Hosting starting
+2024-11-03 18:28:09.285 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 18:28:09.285 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 18:28:09.285 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 18:28:09.286 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 18:28:09.286 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 18:28:09.286 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 18:28:09.286 -06:00 [INF] Hosting environment: Development
+2024-11-03 18:28:09.287 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 18:28:09.287 -06:00 [DBG] Hosting started
+2024-11-03 18:28:09.447 -06:00 [DBG] Connection id "0HN7SCU7JHKKM" accepted.
+2024-11-03 18:28:09.447 -06:00 [DBG] Connection id "0HN7SCU7JHKKL" accepted.
+2024-11-03 18:28:09.448 -06:00 [DBG] Connection id "0HN7SCU7JHKKM" started.
+2024-11-03 18:28:09.448 -06:00 [DBG] Connection id "0HN7SCU7JHKKL" started.
+2024-11-03 18:28:09.457 -06:00 [DBG] Connection id "0HN7SCU7JHKKM" received FIN.
+2024-11-03 18:28:09.457 -06:00 [DBG] Connection id "0HN7SCU7JHKKL" received FIN.
+2024-11-03 18:28:09.521 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 18:28:09.521 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 18:28:09.583 -06:00 [DBG] Connection id "0HN7SCU7JHKKL" stopped.
+2024-11-03 18:28:09.583 -06:00 [DBG] Connection id "0HN7SCU7JHKKM" stopped.
+2024-11-03 18:28:09.588 -06:00 [DBG] Connection id "0HN7SCU7JHKKL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 18:28:09.588 -06:00 [DBG] Connection id "0HN7SCU7JHKKM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 18:28:10.274 -06:00 [DBG] Connection id "0HN7SCU7JHKKN" accepted.
+2024-11-03 18:28:10.275 -06:00 [DBG] Connection id "0HN7SCU7JHKKN" started.
+2024-11-03 18:28:10.922 -06:00 [DBG] Connection 0HN7SCU7JHKKN established using the following protocol: "Tls12"
+2024-11-03 18:28:11.070 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 18:28:11.473 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 18:28:11.498 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 18:28:11.499 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 18:28:11.618 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 18:28:11.619 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 18:28:11.645 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 18:28:11.646 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 18:28:11.649 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 590.0432ms
+2024-11-03 18:28:11.690 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 18:28:11.700 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 10.5664ms
+2024-11-03 18:28:11.759 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 18:28:11.838 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.4183ms
+2024-11-03 18:28:12.039 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 18:28:12.039 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 18:28:12.039 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 18:28:12.252 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.1823ms
+2024-11-03 18:28:15.959 -06:00 [DBG] Connection id "0HN7SCU7JHKKN" received FIN.
+2024-11-03 18:28:15.963 -06:00 [DBG] The connection queue processing loop for 0HN7SCU7JHKKN completed.
+2024-11-03 18:28:15.964 -06:00 [DBG] Connection id "0HN7SCU7JHKKN" is closed. The last processed stream ID was 7.
+2024-11-03 18:28:15.964 -06:00 [DBG] Connection id "0HN7SCU7JHKKN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 18:28:15.973 -06:00 [DBG] Connection id "0HN7SCU7JHKKN" stopped.
+2024-11-03 23:07:12.870 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:07:13.847 -06:00 [INF] Iniciando app...
+2024-11-03 23:07:13.853 -06:00 [DBG] Hosting starting
+2024-11-03 23:07:14.392 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:07:14.392 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:07:14.393 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:07:14.393 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:07:14.393 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:07:14.393 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:07:14.393 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:07:14.393 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:07:14.394 -06:00 [DBG] Hosting started
+2024-11-03 23:07:14.416 -06:00 [DBG] Connection id "0HN7SHQ600OI3" received FIN.
+2024-11-03 23:07:14.424 -06:00 [DBG] Connection id "0HN7SHQ600OI3" accepted.
+2024-11-03 23:07:14.425 -06:00 [DBG] Connection id "0HN7SHQ600OI3" started.
+2024-11-03 23:07:14.460 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:07:14.534 -06:00 [DBG] Connection id "0HN7SHQ600OI3" stopped.
+2024-11-03 23:07:14.541 -06:00 [DBG] Connection id "0HN7SHQ600OI3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:07:17.391 -06:00 [DBG] Connection id "0HN7SHQ600OI4" accepted.
+2024-11-03 23:07:17.392 -06:00 [DBG] Connection id "0HN7SHQ600OI4" started.
+2024-11-03 23:07:19.501 -06:00 [DBG] Connection 0HN7SHQ600OI4 established using the following protocol: "Tls12"
+2024-11-03 23:07:19.866 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:07:20.066 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:07:20.101 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:07:20.101 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:07:20.250 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:07:20.252 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:07:20.284 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:07:20.285 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:07:20.288 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 441.3274ms
+2024-11-03 23:07:20.343 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:07:20.355 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 12.1187ms
+2024-11-03 23:07:20.433 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:07:20.775 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 341.8968ms
+2024-11-03 23:07:20.996 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:07:20.996 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:07:20.996 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:07:21.228 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 232.38ms
+2024-11-03 23:07:23.591 -06:00 [DBG] Connection id "0HN7SHQ600OI4" received FIN.
+2024-11-03 23:07:23.596 -06:00 [DBG] The connection queue processing loop for 0HN7SHQ600OI4 completed.
+2024-11-03 23:07:23.599 -06:00 [DBG] Connection id "0HN7SHQ600OI4" is closed. The last processed stream ID was 7.
+2024-11-03 23:07:23.599 -06:00 [DBG] Connection id "0HN7SHQ600OI4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:07:23.607 -06:00 [DBG] Connection id "0HN7SHQ600OI4" stopped.
+2024-11-03 23:07:28.103 -06:00 [DBG] Connection id "0HN7SHQ600OI5" accepted.
+2024-11-03 23:07:28.103 -06:00 [DBG] Connection id "0HN7SHQ600OI5" started.
+2024-11-03 23:07:28.110 -06:00 [DBG] Connection 0HN7SHQ600OI5 established using the following protocol: "Tls12"
+2024-11-03 23:07:28.112 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno - null null
+2024-11-03 23:07:28.115 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:07:28.117 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:07:28.118 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:07:28.128 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:07:28.132 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:07:28.166 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:07:28.168 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:07:28.168 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:07:28.169 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:07:28.169 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:07:28.169 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:07:28.173 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:07:28.175 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:07:28.562 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:07:28.564 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:07:28.564 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-03 23:07:28.564 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-03 23:07:28.564 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-03 23:07:28.565 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEB_API_CUATRO_AUTH.Models.AlumnoModel, WEB_API_CUATRO_AUTH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-03 23:07:28.609 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 436.1053ms
+2024-11-03 23:07:28.610 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:07:28.610 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno - 200 null application/json; charset=utf-8 498.5351ms
+2024-11-03 23:07:33.609 -06:00 [DBG] Connection id "0HN7SHQ600OI5" received FIN.
+2024-11-03 23:07:33.612 -06:00 [DBG] Connection id "0HN7SHQ600OI5" is closed. The last processed stream ID was 1.
+2024-11-03 23:07:33.612 -06:00 [DBG] Connection id "0HN7SHQ600OI5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:07:33.615 -06:00 [DBG] The connection queue processing loop for 0HN7SHQ600OI5 completed.
+2024-11-03 23:07:33.616 -06:00 [DBG] Connection id "0HN7SHQ600OI5" stopped.
+2024-11-03 23:08:04.243 -06:00 [DBG] Connection id "0HN7SHQ600OI6" accepted.
+2024-11-03 23:08:04.243 -06:00 [DBG] Connection id "0HN7SHQ600OI6" started.
+2024-11-03 23:08:04.259 -06:00 [DBG] Connection 0HN7SHQ600OI6 established using the following protocol: "Tls12"
+2024-11-03 23:08:04.285 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno/3 - null null
+2024-11-03 23:08:04.288 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/3'
+2024-11-03 23:08:04.290 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/3'
+2024-11-03 23:08:04.290 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:08:04.290 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:08:04.291 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:08:04.299 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.String Get(Int32) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:08:04.299 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:08:04.299 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:08:04.299 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:08:04.299 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:08:04.299 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:08:04.300 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:08:04.300 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:08:04.313 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:08:04.316 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:08:04.317 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:08:04.318 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:08:04.318 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:08:04.320 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:08:04.322 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:08:04.323 -06:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-03 23:08:04.324 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-03 23:08:04.324 -06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-03 23:08:04.324 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 24.6333ms
+2024-11-03 23:08:04.324 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:08:04.325 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno/3 - 200 null text/plain; charset=utf-8 40.299ms
+2024-11-03 23:08:13.662 -06:00 [DBG] Connection id "0HN7SHQ600OI6" received FIN.
+2024-11-03 23:08:13.662 -06:00 [DBG] Connection id "0HN7SHQ600OI6" is closed. The last processed stream ID was 1.
+2024-11-03 23:08:13.662 -06:00 [DBG] Connection id "0HN7SHQ600OI6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:08:13.662 -06:00 [DBG] The connection queue processing loop for 0HN7SHQ600OI6 completed.
+2024-11-03 23:08:13.663 -06:00 [DBG] Connection id "0HN7SHQ600OI6" stopped.
+2024-11-03 23:10:53.415 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:10:53.569 -06:00 [INF] Iniciando app...
+2024-11-03 23:10:53.574 -06:00 [DBG] Hosting starting
+2024-11-03 23:10:53.888 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:10:53.888 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:10:53.888 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:10:53.888 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:10:53.888 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:10:53.888 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:10:53.889 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:10:53.889 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:10:53.889 -06:00 [DBG] Hosting started
+2024-11-03 23:10:53.986 -06:00 [DBG] Connection id "0HN7SHS7E04M8" accepted.
+2024-11-03 23:10:53.987 -06:00 [DBG] Connection id "0HN7SHS7E04M8" started.
+2024-11-03 23:10:54.038 -06:00 [DBG] Connection id "0HN7SHS7E04M8" received FIN.
+2024-11-03 23:10:54.038 -06:00 [DBG] Connection id "0HN7SHS7E04M9" received FIN.
+2024-11-03 23:10:54.044 -06:00 [DBG] Connection id "0HN7SHS7E04M9" accepted.
+2024-11-03 23:10:54.046 -06:00 [DBG] Connection id "0HN7SHS7E04M9" started.
+2024-11-03 23:10:54.059 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:10:54.059 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:10:54.139 -06:00 [DBG] Connection id "0HN7SHS7E04M9" stopped.
+2024-11-03 23:10:54.183 -06:00 [DBG] Connection id "0HN7SHS7E04M8" stopped.
+2024-11-03 23:10:54.211 -06:00 [DBG] Connection id "0HN7SHS7E04M9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:10:54.213 -06:00 [DBG] Connection id "0HN7SHS7E04M8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:10:54.527 -06:00 [DBG] Connection id "0HN7SHS7E04MA" accepted.
+2024-11-03 23:10:54.529 -06:00 [DBG] Connection id "0HN7SHS7E04MA" started.
+2024-11-03 23:10:54.785 -06:00 [DBG] Connection 0HN7SHS7E04MA established using the following protocol: "Tls12"
+2024-11-03 23:10:54.960 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:10:55.221 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:10:55.256 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:10:55.257 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:10:55.393 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:10:55.395 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:10:55.454 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:10:55.455 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:10:55.468 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 517.6843ms
+2024-11-03 23:10:55.494 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:10:55.519 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:10:55.536 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 16.9896ms
+2024-11-03 23:10:55.593 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.9996ms
+2024-11-03 23:10:55.694 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:10:55.694 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:10:55.695 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:10:55.879 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 184.8319ms
+2024-11-03 23:11:00.254 -06:00 [DBG] Connection id "0HN7SHS7E04MA" received FIN.
+2024-11-03 23:11:00.257 -06:00 [DBG] The connection queue processing loop for 0HN7SHS7E04MA completed.
+2024-11-03 23:11:00.259 -06:00 [DBG] Connection id "0HN7SHS7E04MA" is closed. The last processed stream ID was 7.
+2024-11-03 23:11:00.259 -06:00 [DBG] Connection id "0HN7SHS7E04MA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:11:00.268 -06:00 [DBG] Connection id "0HN7SHS7E04MA" stopped.
+2024-11-03 23:11:00.970 -06:00 [DBG] Connection id "0HN7SHS7E04MB" accepted.
+2024-11-03 23:11:00.970 -06:00 [DBG] Connection id "0HN7SHS7E04MB" started.
+2024-11-03 23:11:00.979 -06:00 [DBG] Connection 0HN7SHS7E04MB established using the following protocol: "Tls12"
+2024-11-03 23:11:00.980 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno - null null
+2024-11-03 23:11:00.985 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:11:00.988 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:11:00.989 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:11:00.992 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:11:00.997 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:11:01.042 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:11:01.046 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:11:01.046 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:11:01.047 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:11:01.048 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:11:01.048 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:11:01.052 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:11:01.053 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:11:01.392 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:11:01.394 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:11:01.395 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-03 23:11:01.395 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-03 23:11:01.396 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-03 23:11:01.397 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEB_API_CUATRO_AUTH.Models.AlumnoModel, WEB_API_CUATRO_AUTH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-03 23:11:01.467 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 414.5207ms
+2024-11-03 23:11:01.468 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:11:01.469 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno - 200 null application/json; charset=utf-8 488.7811ms
+2024-11-03 23:11:05.261 -06:00 [DBG] Connection id "0HN7SHS7E04MB" received FIN.
+2024-11-03 23:11:05.262 -06:00 [DBG] Connection id "0HN7SHS7E04MB" is closed. The last processed stream ID was 1.
+2024-11-03 23:11:05.262 -06:00 [DBG] The connection queue processing loop for 0HN7SHS7E04MB completed.
+2024-11-03 23:11:05.262 -06:00 [DBG] Connection id "0HN7SHS7E04MB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:11:05.276 -06:00 [DBG] Connection id "0HN7SHS7E04MB" stopped.
+2024-11-03 23:11:35.615 -06:00 [DBG] Connection id "0HN7SHS7E04MC" accepted.
+2024-11-03 23:11:35.615 -06:00 [DBG] Connection id "0HN7SHS7E04MC" started.
+2024-11-03 23:11:35.637 -06:00 [DBG] Connection 0HN7SHS7E04MC established using the following protocol: "Tls12"
+2024-11-03 23:11:35.639 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 296
+2024-11-03 23:11:35.640 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:11:35.640 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:11:35.640 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:11:35.640 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:11:35.642 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:11:35.642 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:11:35.643 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:11:35.653 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature Void Post(System.String) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:11:35.654 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:11:35.654 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:11:35.654 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:11:35.654 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:11:35.654 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:11:35.654 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:11:35.655 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:11:35.673 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' ...
+2024-11-03 23:11:35.676 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' using the name '' in request data ...
+2024-11-03 23:11:35.677 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:11:35.683 -06:00 [DBG] Connection id "0HN7SHS7E04MC", Request id "0HN7SHS7E04MC:00000001": started reading request body.
+2024-11-03 23:11:35.684 -06:00 [DBG] Connection id "0HN7SHS7E04MC", Request id "0HN7SHS7E04MC:00000001": done reading request body.
+2024-11-03 23:11:35.692 -06:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.String. Path: $ | LineNumber: 0 | BytePositionInLine: 2.
+2024-11-03 23:11:35.693 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:11:35.693 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:11:35.693 -06:00 [DBG] Attempting to validate the bound parameter 'value' of type 'System.String' ...
+2024-11-03 23:11:35.700 -06:00 [DBG] Done attempting to validate the bound parameter 'value' of type 'System.String'.
+2024-11-03 23:11:35.701 -06:00 [DBG] The request has model state errors, returning an error response.
+2024-11-03 23:11:35.702 -06:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-11-03 23:11:35.703 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:11:35.703 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:11:35.703 -06:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-11-03 23:11:35.703 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-11-03 23:11:35.703 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-03 23:11:35.721 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 67.2283ms
+2024-11-03 23:11:35.722 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:11:35.722 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 400 null application/problem+json; charset=utf-8 82.8333ms
+2024-11-03 23:11:45.315 -06:00 [DBG] Connection id "0HN7SHS7E04MC" received FIN.
+2024-11-03 23:11:45.315 -06:00 [DBG] Connection id "0HN7SHS7E04MC" is closed. The last processed stream ID was 1.
+2024-11-03 23:11:45.315 -06:00 [DBG] Connection id "0HN7SHS7E04MC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:11:45.316 -06:00 [DBG] The connection queue processing loop for 0HN7SHS7E04MC completed.
+2024-11-03 23:11:45.316 -06:00 [DBG] Connection id "0HN7SHS7E04MC" stopped.
+2024-11-03 23:14:32.848 -06:00 [DBG] Connection id "0HN7SHS7E04MD" accepted.
+2024-11-03 23:14:32.848 -06:00 [DBG] Connection id "0HN7SHS7E04MD" started.
+2024-11-03 23:14:32.859 -06:00 [DBG] Connection 0HN7SHS7E04MD established using the following protocol: "Tls12"
+2024-11-03 23:14:32.861 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno/3 - null null
+2024-11-03 23:14:32.861 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/3'
+2024-11-03 23:14:32.862 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/3'
+2024-11-03 23:14:32.864 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:14:32.866 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:14:32.867 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:14:32.870 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.String Get(Int32) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:14:32.871 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:14:32.871 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:14:32.871 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:14:32.871 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:14:32.871 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:14:32.871 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:14:32.873 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:14:32.873 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:14:32.874 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:14:32.875 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:14:32.875 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:14:32.875 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:14:32.875 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:14:32.876 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:14:32.877 -06:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-03 23:14:32.877 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-03 23:14:32.877 -06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-03 23:14:32.877 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 6.3607ms
+2024-11-03 23:14:32.877 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:14:32.877 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno/3 - 200 null text/plain; charset=utf-8 16.4868ms
+2024-11-03 23:14:40.598 -06:00 [DBG] Connection id "0HN7SHS7E04MD" received FIN.
+2024-11-03 23:14:40.598 -06:00 [DBG] Connection id "0HN7SHS7E04MD" is closed. The last processed stream ID was 1.
+2024-11-03 23:14:40.598 -06:00 [DBG] Connection id "0HN7SHS7E04MD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:14:40.598 -06:00 [DBG] The connection queue processing loop for 0HN7SHS7E04MD completed.
+2024-11-03 23:14:40.598 -06:00 [DBG] Connection id "0HN7SHS7E04MD" stopped.
+2024-11-03 23:19:59.647 -06:00 [DBG] Connection id "0HN7SHS7E04ME" accepted.
+2024-11-03 23:19:59.648 -06:00 [DBG] Connection id "0HN7SHS7E04ME" started.
+2024-11-03 23:19:59.670 -06:00 [DBG] Connection 0HN7SHS7E04ME established using the following protocol: "Tls12"
+2024-11-03 23:19:59.680 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 296
+2024-11-03 23:19:59.684 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:19:59.684 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:19:59.685 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:19:59.689 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:19:59.695 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:19:59.695 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:19:59.697 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:19:59.701 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature Void Post(System.String) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:19:59.703 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:19:59.704 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:19:59.704 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:19:59.704 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:19:59.704 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:19:59.704 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:19:59.704 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:19:59.705 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' ...
+2024-11-03 23:19:59.706 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' using the name '' in request data ...
+2024-11-03 23:19:59.707 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:19:59.713 -06:00 [DBG] Connection id "0HN7SHS7E04ME", Request id "0HN7SHS7E04ME:00000001": started reading request body.
+2024-11-03 23:19:59.713 -06:00 [DBG] Connection id "0HN7SHS7E04ME", Request id "0HN7SHS7E04ME:00000001": done reading request body.
+2024-11-03 23:19:59.729 -06:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.String. Path: $ | LineNumber: 0 | BytePositionInLine: 2.
+2024-11-03 23:19:59.729 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:19:59.729 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:19:59.729 -06:00 [DBG] Attempting to validate the bound parameter 'value' of type 'System.String' ...
+2024-11-03 23:19:59.732 -06:00 [DBG] Done attempting to validate the bound parameter 'value' of type 'System.String'.
+2024-11-03 23:19:59.732 -06:00 [DBG] The request has model state errors, returning an error response.
+2024-11-03 23:19:59.733 -06:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-11-03 23:19:59.734 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:19:59.734 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:19:59.734 -06:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-11-03 23:19:59.734 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-11-03 23:19:59.734 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-03 23:19:59.739 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 34.8018ms
+2024-11-03 23:19:59.740 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:19:59.740 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 400 null application/problem+json; charset=utf-8 61.3202ms
+2024-11-03 23:20:01.082 -06:00 [DBG] Connection id "0HN7SHS7E04ME" received FIN.
+2024-11-03 23:20:01.082 -06:00 [DBG] The connection queue processing loop for 0HN7SHS7E04ME completed.
+2024-11-03 23:20:01.082 -06:00 [DBG] Connection id "0HN7SHS7E04ME" is closed. The last processed stream ID was 1.
+2024-11-03 23:20:01.082 -06:00 [DBG] Connection id "0HN7SHS7E04ME" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:20:01.086 -06:00 [DBG] Connection id "0HN7SHS7E04ME" stopped.
+2024-11-03 23:25:31.846 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:25:32.045 -06:00 [INF] Iniciando app...
+2024-11-03 23:25:32.051 -06:00 [DBG] Hosting starting
+2024-11-03 23:25:32.435 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:25:32.435 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:25:32.435 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:25:32.436 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:25:32.436 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:25:32.436 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:25:32.437 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:25:32.437 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:25:32.437 -06:00 [DBG] Hosting started
+2024-11-03 23:25:32.495 -06:00 [DBG] Connection id "0HN7SI4D841ND" received FIN.
+2024-11-03 23:25:32.505 -06:00 [DBG] Connection id "0HN7SI4D841ND" accepted.
+2024-11-03 23:25:32.506 -06:00 [DBG] Connection id "0HN7SI4D841ND" started.
+2024-11-03 23:25:32.535 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:25:32.865 -06:00 [DBG] Connection id "0HN7SI4D841ND" stopped.
+2024-11-03 23:25:32.871 -06:00 [DBG] Connection id "0HN7SI4D841ND" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:25:32.966 -06:00 [DBG] Connection id "0HN7SI4D841NE" accepted.
+2024-11-03 23:25:32.967 -06:00 [DBG] Connection id "0HN7SI4D841NE" started.
+2024-11-03 23:25:33.216 -06:00 [DBG] Connection 0HN7SI4D841NE established using the following protocol: "Tls12"
+2024-11-03 23:25:33.333 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:25:33.502 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:25:33.523 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:25:33.524 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:25:33.643 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:25:33.645 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:25:33.702 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:25:33.703 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:25:33.709 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 381.8828ms
+2024-11-03 23:25:33.709 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:25:33.709 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:25:33.728 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 18.1128ms
+2024-11-03 23:25:33.792 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.6366ms
+2024-11-03 23:25:33.871 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:25:33.872 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:25:33.872 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:25:34.096 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.2566ms
+2024-11-03 23:25:38.267 -06:00 [DBG] Connection id "0HN7SI4D841NE" received FIN.
+2024-11-03 23:25:38.270 -06:00 [DBG] The connection queue processing loop for 0HN7SI4D841NE completed.
+2024-11-03 23:25:38.272 -06:00 [DBG] Connection id "0HN7SI4D841NE" is closed. The last processed stream ID was 7.
+2024-11-03 23:25:38.273 -06:00 [DBG] Connection id "0HN7SI4D841NE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:25:38.277 -06:00 [DBG] Connection id "0HN7SI4D841NE" stopped.
+2024-11-03 23:25:38.806 -06:00 [DBG] Connection id "0HN7SI4D841NF" accepted.
+2024-11-03 23:25:38.806 -06:00 [DBG] Connection id "0HN7SI4D841NF" started.
+2024-11-03 23:25:38.811 -06:00 [DBG] Connection 0HN7SI4D841NF established using the following protocol: "Tls12"
+2024-11-03 23:25:38.815 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno - null null
+2024-11-03 23:25:38.819 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:25:38.824 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:25:38.824 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:25:38.828 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:25:38.832 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:25:38.860 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:25:38.861 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:25:38.862 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:25:38.862 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:25:38.862 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:25:38.862 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:25:38.865 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:25:38.866 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:25:39.185 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:25:39.187 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:25:39.187 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-03 23:25:39.187 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-03 23:25:39.188 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-03 23:25:39.188 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEB_API_CUATRO_AUTH.Models.AlumnoModel, WEB_API_CUATRO_AUTH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-03 23:25:39.239 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 371.8792ms
+2024-11-03 23:25:39.239 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:25:39.240 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno - 200 null application/json; charset=utf-8 425.4936ms
+2024-11-03 23:25:48.279 -06:00 [DBG] Connection id "0HN7SI4D841NF" received FIN.
+2024-11-03 23:25:48.281 -06:00 [DBG] Connection id "0HN7SI4D841NF" is closed. The last processed stream ID was 1.
+2024-11-03 23:25:48.281 -06:00 [DBG] The connection queue processing loop for 0HN7SI4D841NF completed.
+2024-11-03 23:25:48.283 -06:00 [DBG] Connection id "0HN7SI4D841NF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:25:48.283 -06:00 [DBG] Connection id "0HN7SI4D841NF" stopped.
+2024-11-03 23:26:19.398 -06:00 [DBG] Connection id "0HN7SI4D841NG" accepted.
+2024-11-03 23:26:19.399 -06:00 [DBG] Connection id "0HN7SI4D841NG" started.
+2024-11-03 23:26:19.412 -06:00 [DBG] Connection 0HN7SI4D841NG established using the following protocol: "Tls12"
+2024-11-03 23:26:19.429 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 295
+2024-11-03 23:26:19.432 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:26:19.434 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:26:19.438 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:26:19.442 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:26:19.446 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:26:19.447 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:26:19.450 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:26:19.468 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature Void Post(System.String) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:26:19.468 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:26:19.468 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:26:19.468 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:26:19.468 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:26:19.468 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:26:19.469 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:26:19.470 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:26:19.493 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' ...
+2024-11-03 23:26:19.496 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' using the name '' in request data ...
+2024-11-03 23:26:19.497 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:26:19.507 -06:00 [DBG] Connection id "0HN7SI4D841NG", Request id "0HN7SI4D841NG:00000001": started reading request body.
+2024-11-03 23:26:19.507 -06:00 [DBG] Connection id "0HN7SI4D841NG", Request id "0HN7SI4D841NG:00000001": done reading request body.
+2024-11-03 23:26:19.517 -06:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.String. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+2024-11-03 23:26:19.518 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:26:19.518 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:26:19.518 -06:00 [DBG] Attempting to validate the bound parameter 'value' of type 'System.String' ...
+2024-11-03 23:26:19.528 -06:00 [DBG] Done attempting to validate the bound parameter 'value' of type 'System.String'.
+2024-11-03 23:26:19.530 -06:00 [DBG] The request has model state errors, returning an error response.
+2024-11-03 23:26:19.531 -06:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-11-03 23:26:19.532 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:26:19.532 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:26:19.532 -06:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-11-03 23:26:19.532 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-11-03 23:26:19.532 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-03 23:26:19.551 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 82.1564ms
+2024-11-03 23:26:19.551 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:26:19.551 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 400 null application/problem+json; charset=utf-8 123.3221ms
+2024-11-03 23:26:23.306 -06:00 [DBG] Connection id "0HN7SI4D841NG" received FIN.
+2024-11-03 23:26:23.306 -06:00 [DBG] Connection id "0HN7SI4D841NG" is closed. The last processed stream ID was 1.
+2024-11-03 23:26:23.306 -06:00 [DBG] Connection id "0HN7SI4D841NG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:26:23.306 -06:00 [DBG] The connection queue processing loop for 0HN7SI4D841NG completed.
+2024-11-03 23:26:23.307 -06:00 [DBG] Connection id "0HN7SI4D841NG" stopped.
+2024-11-03 23:29:40.526 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:29:40.677 -06:00 [INF] Iniciando app...
+2024-11-03 23:29:40.681 -06:00 [DBG] Hosting starting
+2024-11-03 23:29:41.043 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:29:41.043 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:29:41.043 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:29:41.043 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:29:41.043 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:29:41.044 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:29:41.044 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:29:41.044 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:29:41.044 -06:00 [DBG] Hosting started
+2024-11-03 23:29:41.336 -06:00 [DBG] Connection id "0HN7SI6ND7VU3" received FIN.
+2024-11-03 23:29:41.343 -06:00 [DBG] Connection id "0HN7SI6ND7VU3" accepted.
+2024-11-03 23:29:41.345 -06:00 [DBG] Connection id "0HN7SI6ND7VU3" started.
+2024-11-03 23:29:41.382 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:29:41.702 -06:00 [DBG] Connection id "0HN7SI6ND7VU3" stopped.
+2024-11-03 23:29:41.708 -06:00 [DBG] Connection id "0HN7SI6ND7VU3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:29:41.800 -06:00 [DBG] Connection id "0HN7SI6ND7VU4" accepted.
+2024-11-03 23:29:41.801 -06:00 [DBG] Connection id "0HN7SI6ND7VU4" started.
+2024-11-03 23:29:42.065 -06:00 [DBG] Connection 0HN7SI6ND7VU4 established using the following protocol: "Tls12"
+2024-11-03 23:29:42.160 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:29:42.312 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:29:42.330 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:29:42.331 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:29:42.430 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:29:42.433 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:29:42.471 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:29:42.472 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:29:42.474 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:29:42.480 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 327.6345ms
+2024-11-03 23:29:42.488 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:29:42.501 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 26.7667ms
+2024-11-03 23:29:42.605 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.3464ms
+2024-11-03 23:29:42.689 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:29:42.691 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:29:42.692 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:29:43.038 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 349.2537ms
+2024-11-03 23:29:47.732 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno - null null
+2024-11-03 23:29:47.741 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:29:47.744 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:29:47.746 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:29:47.750 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:29:47.754 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:29:47.792 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:29:47.794 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:29:47.794 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:29:47.795 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:29:47.795 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:29:47.796 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:29:47.799 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:29:47.801 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:29:48.106 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:29:48.108 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:29:48.108 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-03 23:29:48.109 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-03 23:29:48.110 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-03 23:29:48.111 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEB_API_CUATRO_AUTH.Models.AlumnoModel, WEB_API_CUATRO_AUTH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-03 23:29:48.182 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 381.2648ms
+2024-11-03 23:29:48.183 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:29:48.184 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno - 200 null application/json; charset=utf-8 452.0301ms
+2024-11-03 23:29:49.403 -06:00 [DBG] Connection id "0HN7SI6ND7VU4" received FIN.
+2024-11-03 23:29:49.407 -06:00 [DBG] The connection queue processing loop for 0HN7SI6ND7VU4 completed.
+2024-11-03 23:29:49.410 -06:00 [DBG] Connection id "0HN7SI6ND7VU4" is closed. The last processed stream ID was 9.
+2024-11-03 23:29:49.411 -06:00 [DBG] Connection id "0HN7SI6ND7VU4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:29:49.418 -06:00 [DBG] Connection id "0HN7SI6ND7VU4" stopped.
+2024-11-03 23:30:08.353 -06:00 [DBG] Connection id "0HN7SI6ND7VU5" accepted.
+2024-11-03 23:30:08.354 -06:00 [DBG] Connection id "0HN7SI6ND7VU5" started.
+2024-11-03 23:30:08.374 -06:00 [DBG] Connection 0HN7SI6ND7VU5 established using the following protocol: "Tls12"
+2024-11-03 23:30:08.379 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 295
+2024-11-03 23:30:08.385 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:30:08.385 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:30:08.386 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:30:08.386 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:30:08.388 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:30:08.388 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:30:08.389 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:30:08.401 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature Void Post(System.String) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:30:08.401 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:30:08.401 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:30:08.401 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:30:08.401 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:30:08.401 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:30:08.401 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:30:08.402 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:30:08.417 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' ...
+2024-11-03 23:30:08.419 -06:00 [DBG] Attempting to bind parameter 'value' of type 'System.String' using the name '' in request data ...
+2024-11-03 23:30:08.421 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:30:08.430 -06:00 [DBG] Connection id "0HN7SI6ND7VU5", Request id "0HN7SI6ND7VU5:00000001": started reading request body.
+2024-11-03 23:30:08.431 -06:00 [DBG] Connection id "0HN7SI6ND7VU5", Request id "0HN7SI6ND7VU5:00000001": done reading request body.
+2024-11-03 23:30:08.440 -06:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.String. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+2024-11-03 23:30:08.441 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:30:08.441 -06:00 [DBG] Done attempting to bind parameter 'value' of type 'System.String'.
+2024-11-03 23:30:08.442 -06:00 [DBG] Attempting to validate the bound parameter 'value' of type 'System.String' ...
+2024-11-03 23:30:08.452 -06:00 [DBG] Done attempting to validate the bound parameter 'value' of type 'System.String'.
+2024-11-03 23:30:08.454 -06:00 [DBG] The request has model state errors, returning an error response.
+2024-11-03 23:30:08.456 -06:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-11-03 23:30:08.456 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:30:08.457 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:30:08.457 -06:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-11-03 23:30:08.458 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-11-03 23:30:08.459 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-03 23:30:08.483 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 81.6787ms
+2024-11-03 23:30:08.483 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:30:08.483 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 400 null application/problem+json; charset=utf-8 105.4321ms
+2024-11-03 23:30:09.441 -06:00 [DBG] Connection id "0HN7SI6ND7VU5" received FIN.
+2024-11-03 23:30:09.441 -06:00 [DBG] Connection id "0HN7SI6ND7VU5" is closed. The last processed stream ID was 1.
+2024-11-03 23:30:09.441 -06:00 [DBG] The connection queue processing loop for 0HN7SI6ND7VU5 completed.
+2024-11-03 23:30:09.441 -06:00 [DBG] Connection id "0HN7SI6ND7VU5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:30:09.443 -06:00 [DBG] Connection id "0HN7SI6ND7VU5" stopped.
+2024-11-03 23:43:51.548 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:43:51.742 -06:00 [INF] Iniciando app...
+2024-11-03 23:43:51.745 -06:00 [DBG] Hosting starting
+2024-11-03 23:43:52.091 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:43:52.091 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:43:52.091 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:43:52.091 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:43:52.091 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:43:52.091 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:43:52.091 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:43:52.091 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:43:52.092 -06:00 [DBG] Hosting started
+2024-11-03 23:43:52.210 -06:00 [DBG] Connection id "0HN7SIEKVQ8AC" received FIN.
+2024-11-03 23:43:52.216 -06:00 [DBG] Connection id "0HN7SIEKVQ8AC" accepted.
+2024-11-03 23:43:52.217 -06:00 [DBG] Connection id "0HN7SIEKVQ8AC" started.
+2024-11-03 23:43:52.241 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:43:52.306 -06:00 [DBG] Connection id "0HN7SIEKVQ8AC" stopped.
+2024-11-03 23:43:52.311 -06:00 [DBG] Connection id "0HN7SIEKVQ8AC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:43:53.052 -06:00 [DBG] Connection id "0HN7SIEKVQ8AD" accepted.
+2024-11-03 23:43:53.052 -06:00 [DBG] Connection id "0HN7SIEKVQ8AD" started.
+2024-11-03 23:43:53.286 -06:00 [DBG] Connection 0HN7SIEKVQ8AD established using the following protocol: "Tls12"
+2024-11-03 23:43:53.435 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:43:53.685 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:43:53.714 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:43:53.715 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:43:53.867 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:43:53.869 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:43:53.912 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:43:53.913 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:43:53.921 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 494.7978ms
+2024-11-03 23:43:53.972 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:43:53.987 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 14.773ms
+2024-11-03 23:43:54.094 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:43:54.159 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.6184ms
+2024-11-03 23:43:54.505 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:43:54.505 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:43:54.505 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:43:54.750 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 245.6276ms
+2024-11-03 23:43:56.170 -06:00 [DBG] Connection id "0HN7SIEKVQ8AD" received FIN.
+2024-11-03 23:43:56.173 -06:00 [DBG] The connection queue processing loop for 0HN7SIEKVQ8AD completed.
+2024-11-03 23:43:56.175 -06:00 [DBG] Connection id "0HN7SIEKVQ8AD" is closed. The last processed stream ID was 7.
+2024-11-03 23:43:56.176 -06:00 [DBG] Connection id "0HN7SIEKVQ8AD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:43:56.188 -06:00 [DBG] Connection id "0HN7SIEKVQ8AD" stopped.
+2024-11-03 23:44:06.276 -06:00 [DBG] Connection id "0HN7SIEKVQ8AE" accepted.
+2024-11-03 23:44:06.276 -06:00 [DBG] Connection id "0HN7SIEKVQ8AE" started.
+2024-11-03 23:44:06.279 -06:00 [DBG] Connection 0HN7SIEKVQ8AE established using the following protocol: "Tls12"
+2024-11-03 23:44:06.281 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno/3 - null null
+2024-11-03 23:44:06.285 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/3'
+2024-11-03 23:44:06.288 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/3'
+2024-11-03 23:44:06.289 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:44:06.292 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:44:06.295 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:44:06.326 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:44:06.328 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:44:06.328 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:44:06.328 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:44:06.329 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:44:06.329 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:44:06.331 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:44:06.332 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:44:06.347 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:44:06.349 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:44:06.350 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:44:06.351 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:44:06.351 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:44:06.353 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:44:06.625 -06:00 [INF] lectura de info exitosa
+2024-11-03 23:44:06.647 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:44:06.649 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:44:06.649 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-03 23:44:06.649 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-03 23:44:06.650 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-03 23:44:06.650 -06:00 [INF] Executing OkObjectResult, writing value of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:44:06.702 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 370.2697ms
+2024-11-03 23:44:06.703 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:44:06.704 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno/3 - 200 null application/json; charset=utf-8 422.9837ms
+2024-11-03 23:44:16.185 -06:00 [DBG] Connection id "0HN7SIEKVQ8AE" received FIN.
+2024-11-03 23:44:16.185 -06:00 [DBG] Connection id "0HN7SIEKVQ8AE" is closed. The last processed stream ID was 1.
+2024-11-03 23:44:16.186 -06:00 [DBG] Connection id "0HN7SIEKVQ8AE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:44:16.186 -06:00 [DBG] The connection queue processing loop for 0HN7SIEKVQ8AE completed.
+2024-11-03 23:44:16.202 -06:00 [DBG] Connection id "0HN7SIEKVQ8AE" stopped.
+2024-11-03 23:45:05.033 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF" accepted.
+2024-11-03 23:45:05.034 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF" started.
+2024-11-03 23:45:05.044 -06:00 [DBG] Connection 0HN7SIEKVQ8AF established using the following protocol: "Tls12"
+2024-11-03 23:45:05.049 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 245
+2024-11-03 23:45:05.050 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:45:05.050 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:45:05.050 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:45:05.050 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:45:05.052 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:45:05.053 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:45:05.055 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:45:05.064 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task Post(WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:45:05.065 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:45:05.065 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:45:05.065 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:45:05.065 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:45:05.065 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:45:05.065 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:45:05.066 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:45:05.067 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:45:05.068 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:45:05.070 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:45:05.082 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF", Request id "0HN7SIEKVQ8AF:00000001": started reading request body.
+2024-11-03 23:45:05.082 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF", Request id "0HN7SIEKVQ8AF:00000001": done reading request body.
+2024-11-03 23:45:05.098 -06:00 [DBG] JSON input formatter threw an exception: The JSON value could not be converted to System.Nullable`1[System.DateTime]. Path: $.fechaNacimiento | LineNumber: 6 | BytePositionInLine: 30.
+2024-11-03 23:45:05.098 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:45:05.099 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:45:05.099 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:45:05.106 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:45:05.107 -06:00 [DBG] The request has model state errors, returning an error response.
+2024-11-03 23:45:05.110 -06:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-11-03 23:45:05.110 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:45:05.110 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:45:05.111 -06:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-11-03 23:45:05.112 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-11-03 23:45:05.112 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-03 23:45:05.140 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 74.3631ms
+2024-11-03 23:45:05.140 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:45:05.140 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 400 null application/problem+json; charset=utf-8 91.3657ms
+2024-11-03 23:45:06.243 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF" received FIN.
+2024-11-03 23:45:06.243 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF" is closed. The last processed stream ID was 1.
+2024-11-03 23:45:06.243 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:45:06.243 -06:00 [DBG] The connection queue processing loop for 0HN7SIEKVQ8AF completed.
+2024-11-03 23:45:06.243 -06:00 [DBG] Connection id "0HN7SIEKVQ8AF" stopped.
+2024-11-03 23:46:08.799 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG" accepted.
+2024-11-03 23:46:08.799 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG" started.
+2024-11-03 23:46:08.806 -06:00 [DBG] Connection 0HN7SIEKVQ8AG established using the following protocol: "Tls12"
+2024-11-03 23:46:08.807 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 248
+2024-11-03 23:46:08.808 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:46:08.809 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:46:08.809 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:46:08.812 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:46:08.814 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:46:08.815 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:46:08.815 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:46:08.815 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task Post(WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:46:08.815 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:46:08.815 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:46:08.815 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:46:08.815 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:46:08.816 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:46:08.816 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:46:08.818 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:46:08.818 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:46:08.818 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:46:08.819 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:46:08.819 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG", Request id "0HN7SIEKVQ8AG:00000001": started reading request body.
+2024-11-03 23:46:08.819 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG", Request id "0HN7SIEKVQ8AG:00000001": done reading request body.
+2024-11-03 23:46:08.823 -06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'
+2024-11-03 23:46:08.823 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:46:08.823 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:46:08.823 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:46:08.830 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:46:08.943 -06:00 [ERR] Error al agregar alumno
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'agregarAlumno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at WEB_API_CUATRO_AUTH.Repositories.Impl.AlumnoRepository.AddAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Repositories\Impl\AlumnoRepository.cs:line 36
+ClientConnectionId:d756d208-bd7e-47f2-a78a-a9d1cec6a56b
+Error Number:2812,State:62,Class:16
+2024-11-03 23:46:09.030 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 214.4781ms
+2024-11-03 23:46:09.031 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:46:09.032 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'agregarAlumno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at WEB_API_CUATRO_AUTH.Repositories.Impl.AlumnoRepository.AddAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Repositories\Impl\AlumnoRepository.cs:line 36
+   at WEB_API_CUATRO_AUTH.Services.Impl.AlumnoService.AddAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Services\Impl\AlumnoService.cs:line 15
+   at WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Controllers\AlumnoController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:d756d208-bd7e-47f2-a78a-a9d1cec6a56b
+Error Number:2812,State:62,Class:16
+2024-11-03 23:46:09.048 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 500 null text/plain; charset=utf-8 240.8138ms
+2024-11-03 23:46:11.369 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG" received FIN.
+2024-11-03 23:46:11.369 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG" is closed. The last processed stream ID was 1.
+2024-11-03 23:46:11.369 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:46:11.369 -06:00 [DBG] The connection queue processing loop for 0HN7SIEKVQ8AG completed.
+2024-11-03 23:46:11.370 -06:00 [DBG] Connection id "0HN7SIEKVQ8AG" stopped.
+2024-11-03 23:48:22.366 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH" accepted.
+2024-11-03 23:48:22.368 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH" started.
+2024-11-03 23:48:22.384 -06:00 [DBG] Connection 0HN7SIEKVQ8AH established using the following protocol: "Tls12"
+2024-11-03 23:48:22.387 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 248
+2024-11-03 23:48:22.388 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:48:22.388 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:48:22.388 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:48:22.388 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:48:22.388 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:48:22.388 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:48:22.389 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:48:22.389 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task Post(WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:48:22.389 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:48:22.389 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:48:22.389 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:48:22.389 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:48:22.389 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:48:22.389 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:48:22.389 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:48:22.390 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:48:22.390 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:48:22.390 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:48:22.390 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH", Request id "0HN7SIEKVQ8AH:00000001": started reading request body.
+2024-11-03 23:48:22.390 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH", Request id "0HN7SIEKVQ8AH:00000001": done reading request body.
+2024-11-03 23:48:22.390 -06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'
+2024-11-03 23:48:22.390 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:48:22.390 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:48:22.390 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:48:22.391 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:48:22.413 -06:00 [ERR] Error al agregar alumno
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'agregarAlumno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at WEB_API_CUATRO_AUTH.Repositories.Impl.AlumnoRepository.AddAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Repositories\Impl\AlumnoRepository.cs:line 36
+ClientConnectionId:d756d208-bd7e-47f2-a78a-a9d1cec6a56b
+Error Number:2812,State:62,Class:16
+2024-11-03 23:48:22.472 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 82.2278ms
+2024-11-03 23:48:22.472 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:48:22.473 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'agregarAlumno'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at WEB_API_CUATRO_AUTH.Repositories.Impl.AlumnoRepository.AddAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Repositories\Impl\AlumnoRepository.cs:line 36
+   at WEB_API_CUATRO_AUTH.Services.Impl.AlumnoService.AddAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Services\Impl\AlumnoService.cs:line 15
+   at WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Controllers\AlumnoController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:d756d208-bd7e-47f2-a78a-a9d1cec6a56b
+Error Number:2812,State:62,Class:16
+2024-11-03 23:48:22.476 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 500 null text/plain; charset=utf-8 88.9336ms
+2024-11-03 23:48:31.579 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH" received FIN.
+2024-11-03 23:48:31.580 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH" is closed. The last processed stream ID was 1.
+2024-11-03 23:48:31.580 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:48:31.580 -06:00 [DBG] The connection queue processing loop for 0HN7SIEKVQ8AH completed.
+2024-11-03 23:48:31.580 -06:00 [DBG] Connection id "0HN7SIEKVQ8AH" stopped.
+2024-11-03 23:48:39.470 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:48:39.741 -06:00 [INF] Iniciando app...
+2024-11-03 23:48:39.746 -06:00 [DBG] Hosting starting
+2024-11-03 23:48:40.092 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:48:40.092 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:48:40.092 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:48:40.092 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:48:40.092 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:48:40.093 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:48:40.093 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:48:40.093 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:48:40.093 -06:00 [DBG] Hosting started
+2024-11-03 23:48:40.173 -06:00 [DBG] Connection id "0HN7SIHAQ1JI3" received FIN.
+2024-11-03 23:48:40.182 -06:00 [DBG] Connection id "0HN7SIHAQ1JI3" accepted.
+2024-11-03 23:48:40.183 -06:00 [DBG] Connection id "0HN7SIHAQ1JI3" started.
+2024-11-03 23:48:40.505 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:48:40.566 -06:00 [DBG] Connection id "0HN7SIHAQ1JI3" stopped.
+2024-11-03 23:48:40.571 -06:00 [DBG] Connection id "0HN7SIHAQ1JI3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:48:40.717 -06:00 [DBG] Connection id "0HN7SIHAQ1JI4" accepted.
+2024-11-03 23:48:40.718 -06:00 [DBG] Connection id "0HN7SIHAQ1JI4" started.
+2024-11-03 23:48:41.025 -06:00 [DBG] Connection 0HN7SIHAQ1JI4 established using the following protocol: "Tls12"
+2024-11-03 23:48:41.172 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:48:41.328 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:48:41.357 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:48:41.358 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:48:41.476 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:48:41.478 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:48:41.507 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:48:41.508 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:48:41.511 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 346.5437ms
+2024-11-03 23:48:41.522 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:48:41.522 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:48:41.543 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 21.1215ms
+2024-11-03 23:48:41.590 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.254ms
+2024-11-03 23:48:41.687 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:48:41.687 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:48:41.688 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:48:41.950 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.894ms
+2024-11-03 23:48:49.280 -06:00 [DBG] Connection id "0HN7SIHAQ1JI4" received FIN.
+2024-11-03 23:48:49.283 -06:00 [DBG] The connection queue processing loop for 0HN7SIHAQ1JI4 completed.
+2024-11-03 23:48:49.285 -06:00 [DBG] Connection id "0HN7SIHAQ1JI4" is closed. The last processed stream ID was 7.
+2024-11-03 23:48:49.286 -06:00 [DBG] Connection id "0HN7SIHAQ1JI4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:48:49.292 -06:00 [DBG] Connection id "0HN7SIHAQ1JI4" stopped.
+2024-11-03 23:49:11.925 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5" accepted.
+2024-11-03 23:49:11.928 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5" started.
+2024-11-03 23:49:11.939 -06:00 [DBG] Connection 0HN7SIHAQ1JI5 established using the following protocol: "Tls12"
+2024-11-03 23:49:11.942 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 253
+2024-11-03 23:49:11.946 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:49:11.949 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:49:11.950 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:49:11.953 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:49:11.954 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:49:11.955 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:49:11.959 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:49:11.995 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task Post(WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:49:11.997 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:49:11.997 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:49:11.997 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:49:11.997 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:49:11.998 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:49:12.000 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:49:12.002 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:49:12.020 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:49:12.025 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:49:12.028 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:49:12.067 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5", Request id "0HN7SIHAQ1JI5:00000001": started reading request body.
+2024-11-03 23:49:12.067 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5", Request id "0HN7SIHAQ1JI5:00000001": done reading request body.
+2024-11-03 23:49:12.079 -06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'
+2024-11-03 23:49:12.079 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:49:12.080 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:49:12.080 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:49:12.097 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:49:12.364 -06:00 [INF] Alumno agregado exitosamente
+2024-11-03 23:49:12.375 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 374.472ms
+2024-11-03 23:49:12.376 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:49:12.378 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 200 0 null 435.6457ms
+2024-11-03 23:49:14.371 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7011/api/Alumno - application/json 253
+2024-11-03 23:49:14.371 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno'
+2024-11-03 23:49:14.371 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno' is valid for the request path '/api/Alumno'
+2024-11-03 23:49:14.371 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:49:14.372 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:49:14.372 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:49:14.372 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:49:14.373 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:49:14.373 -06:00 [INF] Route matched with {action = "Post", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task Post(WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:49:14.373 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:49:14.373 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:49:14.373 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:49:14.373 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:49:14.373 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:49:14.373 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:49:14.374 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:49:14.374 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:49:14.375 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:49:14.375 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:49:14.375 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5", Request id "0HN7SIHAQ1JI5:00000003": started reading request body.
+2024-11-03 23:49:14.375 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5", Request id "0HN7SIHAQ1JI5:00000003": done reading request body.
+2024-11-03 23:49:14.375 -06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'
+2024-11-03 23:49:14.375 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:49:14.375 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:49:14.375 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:49:14.375 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:49:14.383 -06:00 [INF] Alumno agregado exitosamente
+2024-11-03 23:49:14.384 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH) in 10.3094ms
+2024-11-03 23:49:14.384 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Post (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:49:14.384 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7011/api/Alumno - 200 0 null 13.5735ms
+2024-11-03 23:49:19.334 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5" received FIN.
+2024-11-03 23:49:19.334 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5" is closed. The last processed stream ID was 3.
+2024-11-03 23:49:19.335 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:49:19.335 -06:00 [DBG] The connection queue processing loop for 0HN7SIHAQ1JI5 completed.
+2024-11-03 23:49:19.336 -06:00 [DBG] Connection id "0HN7SIHAQ1JI5" stopped.
+2024-11-03 23:50:00.316 -06:00 [DBG] Connection id "0HN7SIHAQ1JI6" accepted.
+2024-11-03 23:50:00.316 -06:00 [DBG] Connection id "0HN7SIHAQ1JI6" started.
+2024-11-03 23:50:00.324 -06:00 [DBG] Connection 0HN7SIHAQ1JI6 established using the following protocol: "Tls12"
+2024-11-03 23:50:00.325 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/api/Alumno/35 - null null
+2024-11-03 23:50:00.326 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/35'
+2024-11-03 23:50:00.329 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/35'
+2024-11-03 23:50:00.332 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:50:00.332 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:50:00.333 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:50:00.338 -06:00 [INF] Route matched with {action = "Get", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:50:00.338 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:50:00.339 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:50:00.339 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:50:00.339 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:50:00.339 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:50:00.339 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:50:00.341 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:50:00.341 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:50:00.342 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:50:00.343 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:50:00.343 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:50:00.343 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:50:00.343 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:50:00.365 -06:00 [INF] lectura de info exitosa
+2024-11-03 23:50:00.385 -06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-03 23:50:00.387 -06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-03 23:50:00.387 -06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-03 23:50:00.387 -06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-03 23:50:00.388 -06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-03 23:50:00.388 -06:00 [INF] Executing OkObjectResult, writing value of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:50:00.401 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH) in 62.2883ms
+2024-11-03 23:50:00.401 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Get (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:50:00.402 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/api/Alumno/35 - 200 null application/json; charset=utf-8 76.9447ms
+2024-11-03 23:50:04.426 -06:00 [DBG] Connection id "0HN7SIHAQ1JI6" received FIN.
+2024-11-03 23:50:04.426 -06:00 [DBG] Connection id "0HN7SIHAQ1JI6" is closed. The last processed stream ID was 1.
+2024-11-03 23:50:04.426 -06:00 [DBG] The connection queue processing loop for 0HN7SIHAQ1JI6 completed.
+2024-11-03 23:50:04.426 -06:00 [DBG] Connection id "0HN7SIHAQ1JI6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:50:04.428 -06:00 [DBG] Connection id "0HN7SIHAQ1JI6" stopped.
+2024-11-03 23:50:54.549 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7" accepted.
+2024-11-03 23:50:54.550 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7" started.
+2024-11-03 23:50:54.561 -06:00 [DBG] Connection 0HN7SIHAQ1JI7 established using the following protocol: "Tls12"
+2024-11-03 23:50:54.566 -06:00 [INF] Request starting HTTP/2 PUT https://localhost:7011/api/Alumno/35 - application/json 266
+2024-11-03 23:50:54.571 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/35'
+2024-11-03 23:50:54.572 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/35'
+2024-11-03 23:50:54.572 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:50:54.573 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:50:54.573 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:50:54.573 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:50:54.573 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:50:54.579 -06:00 [INF] Route matched with {action = "Put", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(Int32, WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:50:54.579 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:50:54.579 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:50:54.579 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:50:54.579 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:50:54.579 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:50:54.580 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:50:54.580 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:50:54.580 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:50:54.580 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:50:54.580 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:50:54.580 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:50:54.580 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:50:54.580 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:50:54.581 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:50:54.581 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:50:54.581 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:50:54.581 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7", Request id "0HN7SIHAQ1JI7:00000001": started reading request body.
+2024-11-03 23:50:54.581 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7", Request id "0HN7SIHAQ1JI7:00000001": done reading request body.
+2024-11-03 23:50:54.583 -06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'
+2024-11-03 23:50:54.583 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:50:54.583 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:50:54.583 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:50:54.584 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:50:54.590 -06:00 [INF] lectura de info exitosa
+2024-11-03 23:50:54.631 -06:00 [ERR] Error al consultar alumno
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'actualizarAlumnos' expects parameter '@id', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at WEB_API_CUATRO_AUTH.Repositories.Impl.AlumnoRepository.UpdateAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Repositories\Impl\AlumnoRepository.cs:line 142
+ClientConnectionId:cea7c9da-8f15-426d-9543-27088c91250d
+Error Number:201,State:4,Class:16
+2024-11-03 23:50:54.719 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH) in 139.1338ms
+2024-11-03 23:50:54.720 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:50:54.722 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'actualizarAlumnos' expects parameter '@id', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at WEB_API_CUATRO_AUTH.Repositories.Impl.AlumnoRepository.UpdateAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Repositories\Impl\AlumnoRepository.cs:line 142
+   at WEB_API_CUATRO_AUTH.Services.Impl.AlumnoService.UpdateAlumnoAsync(AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Services\Impl\AlumnoService.cs:line 35
+   at WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put(Int32 id, AlumnoModel alumno) in D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH\Controllers\AlumnoController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:cea7c9da-8f15-426d-9543-27088c91250d
+Error Number:201,State:4,Class:16
+2024-11-03 23:50:54.732 -06:00 [INF] Request finished HTTP/2 PUT https://localhost:7011/api/Alumno/35 - 500 null text/plain; charset=utf-8 166.2793ms
+2024-11-03 23:51:04.514 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7" received FIN.
+2024-11-03 23:51:04.514 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7" is closed. The last processed stream ID was 1.
+2024-11-03 23:51:04.514 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:51:04.514 -06:00 [DBG] The connection queue processing loop for 0HN7SIHAQ1JI7 completed.
+2024-11-03 23:51:04.514 -06:00 [DBG] Connection id "0HN7SIHAQ1JI7" stopped.
+2024-11-03 23:52:10.580 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-03 23:52:10.750 -06:00 [INF] Iniciando app...
+2024-11-03 23:52:10.755 -06:00 [DBG] Hosting starting
+2024-11-03 23:52:11.096 -06:00 [INF] Now listening on: https://localhost:7011
+2024-11-03 23:52:11.096 -06:00 [INF] Now listening on: http://localhost:5292
+2024-11-03 23:52:11.096 -06:00 [DBG] Loaded hosting startup assembly WEB_API_CUATRO_AUTH
+2024-11-03 23:52:11.096 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-03 23:52:11.096 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-03 23:52:11.096 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-03 23:52:11.096 -06:00 [INF] Hosting environment: Development
+2024-11-03 23:52:11.097 -06:00 [INF] Content root path: D:\APITEST_ENTREVISTA_TECNICA\API4\WEB_API_CUATRO_AUTH\WEB_API_CUATRO_AUTH
+2024-11-03 23:52:11.097 -06:00 [DBG] Hosting started
+2024-11-03 23:52:11.491 -06:00 [DBG] Connection id "0HN7SIJ9PAQNO" received FIN.
+2024-11-03 23:52:11.491 -06:00 [DBG] Connection id "0HN7SIJ9PAQNP" received FIN.
+2024-11-03 23:52:11.498 -06:00 [DBG] Connection id "0HN7SIJ9PAQNO" accepted.
+2024-11-03 23:52:11.498 -06:00 [DBG] Connection id "0HN7SIJ9PAQNP" accepted.
+2024-11-03 23:52:11.500 -06:00 [DBG] Connection id "0HN7SIJ9PAQNP" started.
+2024-11-03 23:52:11.500 -06:00 [DBG] Connection id "0HN7SIJ9PAQNO" started.
+2024-11-03 23:52:11.567 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:52:11.567 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-03 23:52:11.874 -06:00 [DBG] Connection id "0HN7SIJ9PAQNP" stopped.
+2024-11-03 23:52:11.874 -06:00 [DBG] Connection id "0HN7SIJ9PAQNO" stopped.
+2024-11-03 23:52:11.881 -06:00 [DBG] Connection id "0HN7SIJ9PAQNO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:52:11.881 -06:00 [DBG] Connection id "0HN7SIJ9PAQNP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:52:11.956 -06:00 [DBG] Connection id "0HN7SIJ9PAQNQ" accepted.
+2024-11-03 23:52:11.957 -06:00 [DBG] Connection id "0HN7SIJ9PAQNQ" started.
+2024-11-03 23:52:12.208 -06:00 [DBG] Connection 0HN7SIJ9PAQNQ established using the following protocol: "Tls12"
+2024-11-03 23:52:12.386 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/index.html - null null
+2024-11-03 23:52:12.595 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-03 23:52:12.616 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-03 23:52:12.617 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:52:12.734 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-03 23:52:12.736 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-03 23:52:12.793 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-03 23:52:12.793 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - null null
+2024-11-03 23:52:12.793 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-03 23:52:12.794 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-03 23:52:12.803 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/index.html - 200 null text/html;charset=utf-8 424.3621ms
+2024-11-03 23:52:12.828 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 34.3686ms
+2024-11-03 23:52:12.880 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.7268ms
+2024-11-03 23:52:12.972 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - null null
+2024-11-03 23:52:12.972 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-03 23:52:12.972 -06:00 [DBG] Request did not match any endpoints
+2024-11-03 23:52:13.218 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 246.118ms
+2024-11-03 23:52:13.644 -06:00 [DBG] Connection id "0HN7SIJ9PAQNQ" received FIN.
+2024-11-03 23:52:13.647 -06:00 [DBG] The connection queue processing loop for 0HN7SIJ9PAQNQ completed.
+2024-11-03 23:52:13.652 -06:00 [DBG] Connection id "0HN7SIJ9PAQNQ" is closed. The last processed stream ID was 7.
+2024-11-03 23:52:13.652 -06:00 [DBG] Connection id "0HN7SIJ9PAQNQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:52:13.665 -06:00 [DBG] Connection id "0HN7SIJ9PAQNQ" stopped.
+2024-11-03 23:52:45.265 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR" accepted.
+2024-11-03 23:52:45.265 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR" started.
+2024-11-03 23:52:45.277 -06:00 [DBG] Connection 0HN7SIJ9PAQNR established using the following protocol: "Tls12"
+2024-11-03 23:52:45.280 -06:00 [INF] Request starting HTTP/2 PUT https://localhost:7011/api/Alumno/35 - application/json 269
+2024-11-03 23:52:45.284 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/35'
+2024-11-03 23:52:45.289 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/35'
+2024-11-03 23:52:45.290 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:52:45.296 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:52:45.299 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:52:45.299 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:52:45.305 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:52:45.355 -06:00 [INF] Route matched with {action = "Put", controller = "Alumno"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(Int32, WEB_API_CUATRO_AUTH.Models.AlumnoModel) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:52:45.357 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:52:45.357 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:52:45.358 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:52:45.358 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:52:45.358 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:52:45.361 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:52:45.364 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:52:45.388 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:52:45.390 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:52:45.392 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:52:45.393 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:52:45.393 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:52:45.396 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:52:45.398 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:52:45.399 -06:00 [DBG] Attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' using the name '' in request data ...
+2024-11-03 23:52:45.401 -06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-03 23:52:45.428 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR", Request id "0HN7SIJ9PAQNR:00000001": started reading request body.
+2024-11-03 23:52:45.429 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR", Request id "0HN7SIJ9PAQNR:00000001": done reading request body.
+2024-11-03 23:52:45.440 -06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'
+2024-11-03 23:52:45.441 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:52:45.441 -06:00 [DBG] Done attempting to bind parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:52:45.441 -06:00 [DBG] Attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel' ...
+2024-11-03 23:52:45.455 -06:00 [DBG] Done attempting to validate the bound parameter 'alumno' of type 'WEB_API_CUATRO_AUTH.Models.AlumnoModel'.
+2024-11-03 23:52:45.697 -06:00 [INF] lectura de info exitosa
+2024-11-03 23:52:45.734 -06:00 [INF] Actualizacion de alumno exitosa
+2024-11-03 23:52:45.739 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-03 23:52:45.742 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH) in 381.1733ms
+2024-11-03 23:52:45.742 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Put (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:52:45.744 -06:00 [INF] Request finished HTTP/2 PUT https://localhost:7011/api/Alumno/35 - 204 null null 463.9735ms
+2024-11-03 23:52:48.677 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR" received FIN.
+2024-11-03 23:52:48.678 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR" is closed. The last processed stream ID was 1.
+2024-11-03 23:52:48.678 -06:00 [DBG] The connection queue processing loop for 0HN7SIJ9PAQNR completed.
+2024-11-03 23:52:48.678 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:52:48.692 -06:00 [DBG] Connection id "0HN7SIJ9PAQNR" stopped.
+2024-11-03 23:53:19.665 -06:00 [DBG] Connection id "0HN7SIJ9PAQNS" accepted.
+2024-11-03 23:53:19.665 -06:00 [DBG] Connection id "0HN7SIJ9PAQNS" started.
+2024-11-03 23:53:19.684 -06:00 [DBG] Connection 0HN7SIJ9PAQNS established using the following protocol: "Tls12"
+2024-11-03 23:53:19.714 -06:00 [INF] Request starting HTTP/2 DELETE https://localhost:7011/api/Alumno/34 - null null
+2024-11-03 23:53:19.715 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/34'
+2024-11-03 23:53:19.715 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/34'
+2024-11-03 23:53:19.715 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:53:19.715 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:53:19.716 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:53:19.716 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:53:19.716 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:53:19.719 -06:00 [INF] Route matched with {action = "Delete", controller = "Alumno"}. Executing controller action with signature Void Delete(Int32) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:53:19.719 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:53:19.719 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:53:19.719 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:53:19.719 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:53:19.719 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:53:19.719 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:53:19.720 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:53:19.720 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:53:19.720 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:53:19.720 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:53:19.720 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:53:19.720 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:53:19.720 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:53:19.723 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH) in 4.2778ms
+2024-11-03 23:53:19.724 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:53:19.724 -06:00 [INF] Request finished HTTP/2 DELETE https://localhost:7011/api/Alumno/34 - 200 0 null 9.6703ms
+2024-11-03 23:53:19.763 -06:00 [INF] Alumno eliminado exitosamente
+2024-11-03 23:53:28.746 -06:00 [DBG] Connection id "0HN7SIJ9PAQNS" received FIN.
+2024-11-03 23:53:28.747 -06:00 [DBG] Connection id "0HN7SIJ9PAQNS" is closed. The last processed stream ID was 1.
+2024-11-03 23:53:28.747 -06:00 [DBG] Connection id "0HN7SIJ9PAQNS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:53:28.747 -06:00 [DBG] The connection queue processing loop for 0HN7SIJ9PAQNS completed.
+2024-11-03 23:53:28.747 -06:00 [DBG] Connection id "0HN7SIJ9PAQNS" stopped.
+2024-11-03 23:53:40.215 -06:00 [DBG] Connection id "0HN7SIJ9PAQNT" accepted.
+2024-11-03 23:53:40.215 -06:00 [DBG] Connection id "0HN7SIJ9PAQNT" started.
+2024-11-03 23:53:40.243 -06:00 [DBG] Connection 0HN7SIJ9PAQNT established using the following protocol: "Tls12"
+2024-11-03 23:53:40.245 -06:00 [INF] Request starting HTTP/2 DELETE https://localhost:7011/api/Alumno/31 - null null
+2024-11-03 23:53:40.245 -06:00 [DBG] 1 candidate(s) found for the request path '/api/Alumno/31'
+2024-11-03 23:53:40.245 -06:00 [DBG] Endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)' with route pattern 'api/Alumno/{id}' is valid for the request path '/api/Alumno/31'
+2024-11-03 23:53:40.245 -06:00 [DBG] Request matched endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:53:40.246 -06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-03 23:53:40.251 -06:00 [DBG] The request has an origin header: 'https://localhost:7011'.
+2024-11-03 23:53:40.252 -06:00 [INF] CORS policy execution successful.
+2024-11-03 23:53:40.254 -06:00 [INF] Executing endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:53:40.254 -06:00 [INF] Route matched with {action = "Delete", controller = "Alumno"}. Executing controller action with signature Void Delete(Int32) on controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH).
+2024-11-03 23:53:40.254 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-03 23:53:40.255 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-03 23:53:40.255 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-03 23:53:40.255 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-03 23:53:40.255 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-03 23:53:40.255 -06:00 [DBG] Executing controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:53:40.258 -06:00 [DBG] Executed controller factory for controller WEB_API_CUATRO_AUTH.Controllers.AlumnoController (WEB_API_CUATRO_AUTH)
+2024-11-03 23:53:40.258 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:53:40.258 -06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-03 23:53:40.258 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:53:40.258 -06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-03 23:53:40.258 -06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-03 23:53:40.258 -06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-03 23:53:40.259 -06:00 [INF] Executed action WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH) in 4.3649ms
+2024-11-03 23:53:40.259 -06:00 [INF] Executed endpoint 'WEB_API_CUATRO_AUTH.Controllers.AlumnoController.Delete (WEB_API_CUATRO_AUTH)'
+2024-11-03 23:53:40.260 -06:00 [INF] Request finished HTTP/2 DELETE https://localhost:7011/api/Alumno/31 - 200 0 null 15.3312ms
+2024-11-03 23:53:40.270 -06:00 [INF] Alumno eliminado exitosamente
+2024-11-03 23:53:48.769 -06:00 [DBG] Connection id "0HN7SIJ9PAQNT" received FIN.
+2024-11-03 23:53:48.769 -06:00 [DBG] Connection id "0HN7SIJ9PAQNT" is closed. The last processed stream ID was 1.
+2024-11-03 23:53:48.769 -06:00 [DBG] Connection id "0HN7SIJ9PAQNT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-03 23:53:48.770 -06:00 [DBG] The connection queue processing loop for 0HN7SIJ9PAQNT completed.
+2024-11-03 23:53:48.770 -06:00 [DBG] Connection id "0HN7SIJ9PAQNT" stopped.
